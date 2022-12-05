@@ -13,16 +13,27 @@ else {
 
         int age1 = 7;
         int age2 = 18;
-        int age3 = 25;
+        int age3 = 23;
         if (age1 >= 7) {
             System.out.println("Ребенок ходит в школу");
         }
+            else {
+                System.out.println("в школу только с 7 лет");
+            }
+
         if (age2 >= 18) {
             System.out.println("Закончили школу, иожно поступать в университет");
         }
+            else {
+                System.out.println("Пока не закончили школу, в университет не поступим");
+            }
+
         if (age3 >= 24) {
             System.out.println("Пора искать работу");
         }
+            else {
+            System.out.println("Сначала нужно выучиться");
+
         //задание 3
         int capacity = 102;
         int seat = 60;
@@ -35,9 +46,8 @@ else {
         }
         if (buyTicket >= seat) {
             System.out.println("Сидячих мест не осталось, стоячих " + (capacity-buyTicket));
-        }
-
-    }
+        }}}}
 
 
-}
+
+
