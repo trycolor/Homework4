@@ -59,8 +59,17 @@ else {
         else {
             System.out.println ("Если возраст равен " + human + " то ему пора работать");
         }
+        int child = 16;
+        if (child < 5) {
+            System.out.println("Если ребенку " + child + " лет, то кататься нельзя");
+        }
+        if (child>5 && child < 14) {
+            System.out.println("Если ребенку " + child + " лет, то кататься без взрослых нельзя");
+        }
+        else {
+            System.out.println("Если ребенку " + child + " лет, то можно кататься без взрослого" ) ;
 
-           }}}
+           }}}}
 
 
 
