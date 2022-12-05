@@ -45,6 +45,21 @@ else {
         else {
             System.out.println("Сидячих мест не осталось, стоячих " + (capacity-buyTicket));
         }
+        int human = 24;
+        if (human >= 2 && human <= 6) {
+            System.out.println ("Если возраст равен " + human + " то он должен ходить в детский сад");
+        }
+        if (human >= 7 && human <= 18) {
+            System.out.println ("Если возраст равен " + human + " то он должен ходить в школу");
+
+        }
+        if (human > 18 && human <24) {
+            System.out.println ("Если возраст равен " + human + " то он должен учиться в университете");
+        }
+        else {
+            System.out.println ("Если возраст равен " + human + " то ему пора работать");
+        }
+
            }}}
 
 
