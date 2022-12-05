@@ -20,6 +20,20 @@ else System.out.println("Прийдется немного подождать");
         if (age3 >= 24) {
             System.out.println("Пора искать работу");
         }
+        //задание 3
+        int capacity = 102;
+        int seat = 60;
+        int buyTicket = 61; //количество купленных билетов
+        if (buyTicket >= capacity) {
+            System.out.println("Свободных мест не осталось");
+        }
+        if (buyTicket < seat) {
+            System.out.println("в вагоне осталось " + (seat - buyTicket) + " сидячих мест и " + (capacity - seat) + "стоячих мест");
+        }
+        if (buyTicket >= seat) {
+            System.out.println("Сидячих мест не осталось, стоячих " + (capacity-buyTicket));
+        }
+
     }
 
 
