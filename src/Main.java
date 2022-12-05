@@ -69,7 +69,25 @@ else {
         else {
             System.out.println("Если ребенку " + child + " лет, то можно кататься без взрослого" ) ;
 
-           }}}}
+           }
+            //упражнение 3-3
+            int one = 25;
+            int two = 6;
+            int three = 3;
+            int bigger;
+            if (one >= two && one>= three) {
+                bigger = one;
+                System.out.println("наибольшее число " + bigger);
+            }
+            if (two >= three && two >= one) {
+                bigger = two;
+                System.out.println("наибольшее число " + bigger);
+            }
+            if (three >= two && three >= one) {
+                bigger = three;
+                System.out.println("наибольшее число " + bigger);
+            }
+            }}}
 
 
 
