@@ -34,19 +34,18 @@ else {
             else {
             System.out.println("Сначала нужно выучиться");
 
-        //задание 3
+        //задание 2-3
         int capacity = 102;
         int seat = 60;
-        int buyTicket = 61; //количество купленных билетов
-        if (buyTicket >= capacity) {
-            System.out.println("Свободных мест не осталось");
-        }
+        int buyTicket = 23; //количество купленных билетов
+
         if (buyTicket < seat) {
             System.out.println("в вагоне осталось " + (seat - buyTicket) + " сидячих мест и " + (capacity - seat) + "стоячих мест");
         }
-        if (buyTicket >= seat) {
+        else {
             System.out.println("Сидячих мест не осталось, стоячих " + (capacity-buyTicket));
-        }}}}
+        }
+           }}}
 
 
 
